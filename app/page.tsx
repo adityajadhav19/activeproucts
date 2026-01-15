@@ -1,10 +1,9 @@
-import { Leaf } from "lucide-react";
-import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
-  title: "Coming Soon | Active Amla Delights",
+  title: "Coming Soon | Active Products",
   description:
-    "Active Amla Delights is launching soon. Premium Amla products made with traditional methods. Stay tuned!",
+    "Active Products is launching soon. Premium Amla products made with traditional methods. Stay tuned!",
 };
 
 export default function ComingSoonPage() {
@@ -15,7 +14,7 @@ export default function ComingSoonPage() {
         {/* Logo */}
         <div className="flex justify-center">
           <div className=" p-4 rounded-full">
-            <img src="1.png" alt="logo" className="bg-green-600 p-4 rounded-full"/>
+            <Image src="1.png" alt="logo" className="bg-green-600 p-4 rounded-full"/>
           </div>
         </div>
 
