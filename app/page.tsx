@@ -62,6 +62,9 @@ export default function ComingSoonPage() {
           <p className="text-xs text-gray-500">
             📞 +91 70205 13097
           </p>
+          <p className="text-xs text-gray-500">
+            info@activeproducts.in
+            </p>
         </div>
 
         {/* Footer note */}
